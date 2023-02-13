@@ -115,7 +115,7 @@
                   "key": "text"
                 }
               ],
-              "text": "{{appsmith.store.test}}",
+              "text": "{{appsmith.store.value}}",
               "isDisabled": false,
               "key": "gxkdqiq55v",
               "isDeprecated": false,
@@ -137,7 +137,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Button3",
-              "onClick": "{{storeValue(\"test\", \"No\") }}",
+              "onClick": "{{storeValue(\"value\", \"No\") }}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "dynamicPropertyPathList": [
                 {
