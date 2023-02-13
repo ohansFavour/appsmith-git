@@ -30,7 +30,7 @@
               "resetFormOnClick": true,
               "boxShadow": "none",
               "widgetName": "Button1",
-              "onClick": "{{storeValue(\"test\", \"Yes\")}}",
+              "onClick": "{{storeValue(\"test\", \"Yes\") }}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "dynamicPropertyPathList": [
                 {
