@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Api2",
     "datasource": {
-      "name": "DEFAULT_REST_DATASOURCE",
+      "name": "http://example.com\"}",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "http://example.com"
+        "url": "http://example.com\"}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page2",
+    "pageId": "Page1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -39,7 +39,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page2_Api1",
+  "id": "Page1_Api2",
   "deleted": false,
-  "gitSyncId": "64c2403c415a0c46776fe674_64c2f43eb0d4bf3576382b53"
+  "gitSyncId": "64c2403c415a0c46776fe674_64c301d48601d8596b8d5666"
 }
